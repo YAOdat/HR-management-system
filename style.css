@@ -1,0 +1,67 @@
+body{
+    background-color: #181818;
+    color: #FFFF
+}
+
+#title{
+    font-size: 4rem;
+}
+
+.buttons{
+    position: relative;
+    left: 790px;
+    bottom: 143px;
+   
+   }
+   
+   #logo{
+   position: relative;
+       top: 45px;
+       left: 35px;
+   }
+   
+   
+   #button1{
+       display: inline-block;
+       text-decoration: none;
+       font-size: 2.7rem;
+       height: fit-content;
+       width: fit-content;
+       cursor: pointer;
+       border: 3px solid #f4f4f4;
+       color: #f4f4f4;
+       padding: 1%;
+       margin: 5px;
+       border-radius: 6px;
+       text-shadow: 0 0 0.6em currentColor;
+       
+   
+   }
+   
+   #button1:hover{
+       text-shadow: 0 0 0.6em #dfe959;
+   
+   }
+   
+   #button2{
+       display: inline-block;
+       text-decoration: none;
+       font-size: 2.7rem;
+       height: fit-content;
+       width: fit-content;
+       cursor: pointer;
+       border: 3px solid #f4f4f4;
+       color: #f4f4f4;
+       padding: 1%;
+       margin: 5px;
+       border-radius: 6px;
+       text-shadow: 0 0 0.6em currentColor;
+       
+   
+   }
+   
+   #button2:hover{
+       text-shadow: 0 0 0.6em #dfe959;
+   
+   }
+   
