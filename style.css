@@ -65,3 +65,17 @@ body{
    
    }
    
+   #salaryPrint{
+    font-size: 1rem;
+    border: #dfe959 solid 2px;
+    width: fit-content;
+    padding: 3px;
+   }
+
+   #social-media, #footer{
+    position: relative;
+    text-decoration: none;
+    color: #f4f4f4;
+    top: 610px;
+    left: 100px;
+   }
