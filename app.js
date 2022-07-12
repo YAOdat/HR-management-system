@@ -25,11 +25,24 @@ Employee.prototype.salaryLevel = function(){
   }
   return salary;}
 
-  Employee.prototype.printNameSalary = function (){
-    document.write(`<p id=salaryPrint> ${this.fullName}:${this.salaryLevel()}<p> <br>`);
+  Employee.prototype.printName = function (){
     
+      var nameAndId= document.querySelector("#employeeName"); 
+      nameAndId.innerHTML+=`${this.fullName}`;
+    };
 
-}
+    Employee.prototype.printDepartment = function (){
+    
+      var department= document.querySelector("#department"); 
+      department.innerHTML+=`${this.department}`;
+    };
+
+    Employee.prototype.printSalary = function (){
+      var department= document.querySelector("#department"); 
+      department.innerHTML+=`$${this.salaryLevel()}`;    
+  
+  }
+    
 
   const GhaziSamer = new Employee("10000", "Ghazi Samer", "Administration", "Senior");
   const LanaAli = new Employee("10001", "Lana Ali", "Finance", "Senior");
@@ -39,11 +52,12 @@ Employee.prototype.salaryLevel = function(){
   const RanaSaleh = new Employee("10005", "Rana Saleh", "Development", "Junior");
   const HadiAhmad	= new Employee("10006", "Hadi Ahmad", "Finance", "Mid-Senior");
   
-
-  GhaziSamer.salaryLevel()
+  
 
    for (let i= 0; i < allEmployees.length; i++){
-    allEmployees[i].printNameSalary();
+    allEmployees[i].printName();
+    allEmployees[i].printDepartment();
+    allEmployees[i].printSalary();
 }
    
 
