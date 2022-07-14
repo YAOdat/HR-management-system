@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@100&display=swap');
+
+
 body{
     background-color: #181818;
     color: #FFFF
 }
 
 #title{
-    font-size: 4rem;
-}
+    font-size: 3.3rem;
+    font-family: 'Monoton';
+  }
 
 .buttons{
     position: relative;
@@ -72,12 +76,10 @@ body{
     padding: 3px;
    }
 
-   #social-media, #footer{
-    position: relative;
-    text-decoration: none;
-    color: #f4f4f4;
-    top: 610px;
-    left: 100px;
+   #footer{
+
+    font-family: 'Monoton';
+    font-size: 2rem;
    }
 
 
@@ -107,13 +109,47 @@ body{
     font-size: 18px;
   }
   
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-    
-  }
   
   button:hover, a:hover {
     opacity: 0.7;
   }
+
+
+  #administration{
+    position: relative;
+     width: fit-content;
+     align-content: center;
+     overflow: hidden;
+     float:left;
+
+  }
+
+
+  #container{
+
+    border: solid 2px white;
+    width: fit-content;
+}
+
+
+#main-image{
+  
+  width: 220px;
+}
+
+
+
+.departmentTitle{
+
+  text-align: center;
+}
+
+
+
+#wallpaper{
+  
+  position: relative;
+  bottom: 160rem;
+  left: 40rem;
+  width: 1700px;
+}
