@@ -6,6 +6,11 @@ body{
     color: #FFFF
 }
 
+
+#container{
+  display: flex;
+  flex: 2;
+}
 #title{
     font-size: 3.3rem;
     font-family: 'Monoton';
@@ -148,8 +153,6 @@ body{
 
 #wallpaper{
   
-  position: relative;
-  bottom: 160rem;
-  left: 40rem;
-  width: 1700px;
+display: flex;
+flex: 2;
 }
